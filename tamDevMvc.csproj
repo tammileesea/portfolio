@@ -10,8 +10,12 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
     <None Remove="Microsoft.AspNetCore.Components" />
+    <None Remove="Views\Shared\Component\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components" Version="7.0.10" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Shared\Component\" />
   </ItemGroup>
 </Project>

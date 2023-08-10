@@ -16,12 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/Views/Shared/Component/Component.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudC9Db21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/Views/Shared/Component/_Imports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudC9fSW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/Views/Shared/Error.cshtml]
