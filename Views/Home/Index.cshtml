@@ -1,13 +1,9 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Tammi's Portfolio";
 }
 
 <div>
-    @(await Html.RenderComponentAsync<tamDevMvc.Views.Shared.Component.Component>(RenderMode.ServerPrerendered, new {  Data= " Hello World " }))
+    @(await Html.RenderComponentAsync<tamDevMvc.Views.Shared.Component.Component>
+        (RenderMode.ServerPrerendered, new {  Data = " Hello World " })
+    )
 </div>
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
-

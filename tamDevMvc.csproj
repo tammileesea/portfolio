@@ -11,11 +11,17 @@
   <ItemGroup>
     <None Remove="Microsoft.AspNetCore.Components" />
     <None Remove="Views\Shared\Component\" />
+    <None Remove="Views\Blog\" />
+    <None Remove="Views\Projects\" />
+    <None Remove="Views\About\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components" Version="7.0.10" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Shared\Component\" />
+    <Folder Include="Views\Blog\" />
+    <Folder Include="Views\Projects\" />
+    <Folder Include="Views\About\" />
   </ItemGroup>
 </Project>

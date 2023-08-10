@@ -1,13 +1,24 @@
 ﻿@using Microsoft.AspNetCore.Components
-<h3>Blazor Component in MVC</h3>
-<button @onclick="Test" class="btn btn-dark">Click to get answer</button>
-<br />
-<div>@Data </div>
+
+<h3>Hi, I'm Tammi!</h3>
+<p>
+    I'm a full stack software engineer with 3 years of experience in the education and legal spaces.
+    <br />
+    Feel free to look around and contact me if you would like to know more or have any questions!
+</p>
+
+@*<button @onclick="Test" class="btn btn-dark">Click to get answer</button>*@
+
+<div>
+    @Data
+</div>
+
 @code {
     [Parameter]
     public string Data { get; set; } = string.Empty;
-    private void Test()
-    {
-        Data = "Button Clicked";
-    }
+
+    //private void Test()
+    //{
+    //    Data = "Button Clicked";
+    //}
 }   
