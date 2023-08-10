@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u/kkewQ8p6eZJVhtlDlBA5DJCHgD2UufFqsP5SM7xiofhbtDNNYjqMipxnD7s2/4JNEe7Uw3+prqtKD1iPTAPg==",
+  "dgSpecHash": "ES1sbLWIIz47910MgX3BI/WaolZ4FZhvDjXESGiHHLbM4B2AXk101DBLHF788WCXOyUKdOOzdxenPbguYzHqug==",
   "success": true,
-  "projectFilePath": "/Users/tammilee/workspace/portfolio/backend/tamDevMvc/tamDevMvc/tamDevMvc.csproj",
+  "projectFilePath": "/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/tamDevMvc.csproj",
   "expectedPackageFiles": [
     "/Users/tammilee/.nuget/packages/microsoft.aspnetcore.authorization/7.0.10/microsoft.aspnetcore.authorization.7.0.10.nupkg.sha512",
     "/Users/tammilee/.nuget/packages/microsoft.aspnetcore.components/7.0.10/microsoft.aspnetcore.components.7.0.10.nupkg.sha512",

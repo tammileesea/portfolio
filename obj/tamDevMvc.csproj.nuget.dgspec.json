@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tammilee/workspace/portfolio/backend/tamDevMvc/tamDevMvc/tamDevMvc.csproj": {}
+    "/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/tamDevMvc.csproj": {}
   },
   "projects": {
-    "/Users/tammilee/workspace/portfolio/backend/tamDevMvc/tamDevMvc/tamDevMvc.csproj": {
+    "/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/tamDevMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tammilee/workspace/portfolio/backend/tamDevMvc/tamDevMvc/tamDevMvc.csproj",
+        "projectUniqueName": "/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/tamDevMvc.csproj",
         "projectName": "tamDevMvc",
-        "projectPath": "/Users/tammilee/workspace/portfolio/backend/tamDevMvc/tamDevMvc/tamDevMvc.csproj",
+        "projectPath": "/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/tamDevMvc.csproj",
         "packagesPath": "/Users/tammilee/.nuget/packages/",
-        "outputPath": "/Users/tammilee/workspace/portfolio/backend/tamDevMvc/tamDevMvc/obj/",
+        "outputPath": "/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
