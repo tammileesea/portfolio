@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "u/kkewQ8p6eZJVhtlDlBA5DJCHgD2UufFqsP5SM7xiofhbtDNNYjqMipxnD7s2/4JNEe7Uw3+prqtKD1iPTAPg==",
+  "success": true,
+  "projectFilePath": "/Users/tammilee/workspace/portfolio/backend/tamDevMvc/tamDevMvc/tamDevMvc.csproj",
+  "expectedPackageFiles": [
+    "/Users/tammilee/.nuget/packages/microsoft.aspnetcore.authorization/7.0.10/microsoft.aspnetcore.authorization.7.0.10.nupkg.sha512",
+    "/Users/tammilee/.nuget/packages/microsoft.aspnetcore.components/7.0.10/microsoft.aspnetcore.components.7.0.10.nupkg.sha512",
+    "/Users/tammilee/.nuget/packages/microsoft.aspnetcore.components.analyzers/7.0.10/microsoft.aspnetcore.components.analyzers.7.0.10.nupkg.sha512",
+    "/Users/tammilee/.nuget/packages/microsoft.aspnetcore.metadata/7.0.10/microsoft.aspnetcore.metadata.7.0.10.nupkg.sha512",
+    "/Users/tammilee/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/tammilee/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.1/microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "/Users/tammilee/.nuget/packages/microsoft.extensions.options/7.0.1/microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "/Users/tammilee/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
