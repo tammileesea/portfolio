@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Tammi Lee- About";
+}
+
+<div>
+    @(await Html.RenderComponentAsync<tamDevMvc.Views.Shared.Component.AboutComponent>
+        (RenderMode.ServerPrerendered, new {  Data = " Dis is a blog! " })
+    )
+</div>

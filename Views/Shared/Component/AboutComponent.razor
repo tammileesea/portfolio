@@ -1,0 +1,21 @@
+﻿@using Microsoft.AspNetCore.Components
+
+<h3>Hi, I'm Tammi!</h3>
+<p>
+    I'm a full stack software engineer with 3 years of experience in the education and legal spaces.
+    <br />
+    
+</p>
+
+<p>
+    Find me on LinkedIn and GitHub!
+</p>
+
+<div>
+    @Data
+</div>
+
+@code {
+    [Parameter]
+    public string Data { get; set; } = string.Empty;
+}   
