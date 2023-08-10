@@ -1,0 +1,12 @@
+﻿@using Microsoft.AspNetCore.Components
+
+<h3>Hi, I'm Tammi!</h3>
+
+<div>
+    @Data
+</div>
+
+@code {
+    [Parameter]
+    public string Data { get; set; } = string.Empty;
+}   
