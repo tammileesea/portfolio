@@ -10,10 +10,17 @@ using tamDevMvc.Models;
 
 namespace tamDevMvc.Controllers
 {
+    [ApiController]
+    [Route("[controller]/[action]")]
     public class BlogController : Controller
     {
         // GET: /<controller>/
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult Post()
         {
             return View();
         }

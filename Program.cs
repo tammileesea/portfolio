@@ -29,9 +29,5 @@ app.UseEndpoints(endpoints =>
     endpoints.MapBlazorHub();
 });
 
-//app.MapControllerRoute(
-//    name: "default",
-//    pattern: "{controller=Home}/{action=Index}/{id?}");
-
 app.Run();
 

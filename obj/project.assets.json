@@ -2,6 +2,34 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "DotNetAuth/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "4.5.8",
+          "RestSharp": "103.4.0",
+          "TaskParallelLibrary": "1.0.2856"
+        },
+        "compile": {
+          "lib/net40/DotNetAuth.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DotNetAuth.dll": {}
+        }
+      },
+      "DotNetAuth.Profiles/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "DotNetAuth": "1.0.5",
+          "Newtonsoft.Json": "4.5.8",
+          "RestSharp": "103.4.0"
+        },
+        "compile": {
+          "lib/net40/DotNetAuth.Profiles.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DotNetAuth.Profiles.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/7.0.10": {
         "type": "package",
         "dependencies": {
@@ -123,10 +151,75 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "Newtonsoft.Json/4.5.8": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "RestSharp/103.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net4/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net4/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "TaskParallelLibrary/1.0.2856": {
+        "type": "package",
+        "compile": {
+          "lib/Net35/System.Threading.dll": {
+            "related": ".chm;.xml"
+          }
+        },
+        "runtime": {
+          "lib/Net35/System.Threading.dll": {
+            "related": ".chm;.xml"
+          }
+        }
       }
     }
   },
   "libraries": {
+    "DotNetAuth/1.0.5": {
+      "sha512": "MYIuwWqELuWciYRp5AixSQpUFnW0PoXlZIFwOG50vLB8fIoqIMLVUDxxwvEok/6v/RYK4hQqsMrZ/n/9/6G5tw==",
+      "type": "package",
+      "path": "dotnetauth/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetauth.1.0.5.nupkg.sha512",
+        "dotnetauth.nuspec",
+        "lib/net35/DotNetAuth.dll",
+        "lib/net40/DotNetAuth.dll"
+      ]
+    },
+    "DotNetAuth.Profiles/1.0.5": {
+      "sha512": "PVKcti+9/UX9Tc8TO1fT5y3JuuwQ2YlYfY9gJwlc5Tqrje9fvupKzPHOMvAnQydSnGdnH8ZmiGHM08mOr8DdTg==",
+      "type": "package",
+      "path": "dotnetauth.profiles/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetauth.profiles.1.0.5.nupkg.sha512",
+        "dotnetauth.profiles.nuspec",
+        "lib/net35/DotnetAuth.Profiles.dll",
+        "lib/net40/DotNetAuth.Profiles.dll"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/7.0.10": {
       "sha512": "ZAAQZfho51GaJ+Pr2e6TVSDQu8lQ09xHJW67OZwuKtcWbgE4LaKmz6U5z7TYTctWxPQD5uZC1+U1hZUcn0g5Zw==",
       "type": "package",
@@ -350,10 +443,76 @@
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Newtonsoft.Json/4.5.8": {
+      "sha512": "o5x2tEL+tvr+34l8U4iXMz0GDt68qarWMoAenvWQtrmfa/2IQyna46nXhcXhmLUGDEBTrsCcR8uP60Wqw40kBg==",
+      "type": "package",
+      "path": "newtonsoft.json/4.5.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/sl3-wp/Newtonsoft.Json.dll",
+        "lib/sl3-wp/Newtonsoft.Json.xml",
+        "lib/sl4-windowsphone71/Newtonsoft.Json.dll",
+        "lib/sl4-windowsphone71/Newtonsoft.Json.xml",
+        "lib/sl4/Newtonsoft.Json.dll",
+        "lib/sl4/Newtonsoft.Json.xml",
+        "lib/winrt45/Newtonsoft.Json.dll",
+        "lib/winrt45/Newtonsoft.Json.xml",
+        "newtonsoft.json.4.5.8.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "RestSharp/103.4.0": {
+      "sha512": "U8PbUgTk6RwJ0tGYtxjD02PsLSLR35mnHpXdDKCBbcXkxUvd2eKxutlNfUkcPmaBJGODwL3N097A3/j/AQrHCg==",
+      "type": "package",
+      "path": "restsharp/103.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35-client/RestSharp.dll",
+        "lib/net35-client/RestSharp.xml",
+        "lib/net35/RestSharp.dll",
+        "lib/net35/RestSharp.xml",
+        "lib/net4-client/RestSharp.dll",
+        "lib/net4-client/RestSharp.xml",
+        "lib/net4/RestSharp.dll",
+        "lib/net4/RestSharp.xml",
+        "lib/sl4-wp71/RestSharp.WindowsPhone.dll",
+        "lib/sl4-wp71/RestSharp.WindowsPhone.xml",
+        "lib/sl4/RestSharp.Silverlight.dll",
+        "lib/sl4/RestSharp.Silverlight.xml",
+        "readme.txt",
+        "restsharp.103.4.0.nupkg.sha512",
+        "restsharp.nuspec"
+      ]
+    },
+    "TaskParallelLibrary/1.0.2856": {
+      "sha512": "O0/oe8Wk+DraF2fFRTSYDEFmKCy7b9DvXG9G83D5bsOmnxxowY4cDu8peye+DrOoo1AS31BntIlpsqyiskBrhw==",
+      "type": "package",
+      "path": "taskparallellibrary/1.0.2856",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Net35/System.Threading.chm",
+        "lib/Net35/System.Threading.dll",
+        "lib/Net35/System.Threading.xml",
+        "lib/Net35/redist.txt",
+        "taskparallellibrary.1.0.2856.nupkg.sha512",
+        "taskparallellibrary.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "DotNetAuth >= 1.0.5",
+      "DotNetAuth.Profiles >= 1.0.5",
       "Microsoft.AspNetCore.Components >= 7.0.10"
     ]
   },
@@ -399,6 +558,14 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "DotNetAuth": {
+            "target": "Package",
+            "version": "[1.0.5, )"
+          },
+          "DotNetAuth.Profiles": {
+            "target": "Package",
+            "version": "[1.0.5, )"
+          },
           "Microsoft.AspNetCore.Components": {
             "target": "Package",
             "version": "[7.0.10, )"
@@ -426,5 +593,57 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetAuth 1.0.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetAuth",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetAuth.Profiles 1.0.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetAuth.Profiles",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json 4.5.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'RestSharp 103.4.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "RestSharp",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'TaskParallelLibrary 1.0.2856' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "TaskParallelLibrary",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

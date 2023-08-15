@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ES1sbLWIIz47910MgX3BI/WaolZ4FZhvDjXESGiHHLbM4B2AXk101DBLHF788WCXOyUKdOOzdxenPbguYzHqug==",
+  "dgSpecHash": "pVAuwndu2h5jgOQcyxnDoFLCyHjuD7TzFJNWJV/SmNRd25QKWLVwE2BiXV862hC2w3+taES3iZlHn8dnNA8KNw==",
   "success": true,
   "projectFilePath": "/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/tamDevMvc.csproj",
   "expectedPackageFiles": [
+    "/Users/tammilee/.nuget/packages/dotnetauth/1.0.5/dotnetauth.1.0.5.nupkg.sha512",
+    "/Users/tammilee/.nuget/packages/dotnetauth.profiles/1.0.5/dotnetauth.profiles.1.0.5.nupkg.sha512",
     "/Users/tammilee/.nuget/packages/microsoft.aspnetcore.authorization/7.0.10/microsoft.aspnetcore.authorization.7.0.10.nupkg.sha512",
     "/Users/tammilee/.nuget/packages/microsoft.aspnetcore.components/7.0.10/microsoft.aspnetcore.components.7.0.10.nupkg.sha512",
     "/Users/tammilee/.nuget/packages/microsoft.aspnetcore.components.analyzers/7.0.10/microsoft.aspnetcore.components.analyzers.7.0.10.nupkg.sha512",
@@ -11,7 +13,61 @@
     "/Users/tammilee/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "/Users/tammilee/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.1/microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
     "/Users/tammilee/.nuget/packages/microsoft.extensions.options/7.0.1/microsoft.extensions.options.7.0.1.nupkg.sha512",
-    "/Users/tammilee/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    "/Users/tammilee/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/tammilee/.nuget/packages/newtonsoft.json/4.5.8/newtonsoft.json.4.5.8.nupkg.sha512",
+    "/Users/tammilee/.nuget/packages/restsharp/103.4.0/restsharp.103.4.0.nupkg.sha512",
+    "/Users/tammilee/.nuget/packages/taskparallellibrary/1.0.2856/taskparallellibrary.1.0.2856.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetAuth 1.0.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetAuth",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetAuth.Profiles 1.0.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetAuth.Profiles",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json 4.5.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'RestSharp 103.4.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "RestSharp",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'TaskParallelLibrary 1.0.2856' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "TaskParallelLibrary",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

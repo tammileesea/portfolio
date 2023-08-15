@@ -42,6 +42,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "DotNetAuth": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "DotNetAuth.Profiles": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
             "Microsoft.AspNetCore.Components": {
               "target": "Package",
               "version": "[7.0.10, )"
