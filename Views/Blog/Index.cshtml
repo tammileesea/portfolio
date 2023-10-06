@@ -1,9 +1,14 @@
 ﻿@{
     ViewData["Title"] = "Tammi Lee- Blog";
+    List<BlogPost> blogPosts = new List<BlogPost>();
+    blogPosts.Add(new BlogPost { Title = "First Blog Post" });
+    blogPosts.Add(new BlogPost { Title = "Second Blog Post" });
+    blogPosts.Add(new BlogPost { Title = "Third Blog Post" });
+    blogPosts.Add(new BlogPost { Title = "Fourth Blog Post" });
 }
 
 <div>
     @(await Html.RenderComponentAsync<tamDevMvc.Views.Shared.Component.BlogComponent>
-        (RenderMode.ServerPrerendered, new {  Data = " Dis is a blog! " })
+        (RenderMode.ServerPrerendered, new {  Data = blogPosts })
     )
 </div>

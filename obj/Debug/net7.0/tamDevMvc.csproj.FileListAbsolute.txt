@@ -35,3 +35,7 @@
 /Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/obj/Debug/net7.0/tamDevMvc.pdb
 /Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/obj/Debug/net7.0/tamDevMvc.genruntimeconfig.cache
 /Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/obj/Debug/net7.0/ref/tamDevMvc.dll
+/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/bin/Debug/net7.0/DotNetAuth.dll
+/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/bin/Debug/net7.0/DotNetAuth.Profiles.dll
+/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/bin/Debug/net7.0/RestSharp.dll

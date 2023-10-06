@@ -1,12 +1,17 @@
 ﻿@using Microsoft.AspNetCore.Components
+@using Models
 
-<h3>Hi, I'm Tammi!</h3>
+<h3>Welcome to my blog!</h3>
+<p>This is where I share my lightbulb moments, ideas, processes, etc. Have a read, leave a comment, all I ask is for you to be kind :)</p>
 
-<div>
-    @Data
-</div>
+@foreach (var post in Data)
+{
+    <div>
+        <h2>@post.Title</h2>
+    </div>
+}
 
 @code {
     [Parameter]
-    public string Data { get; set; } = string.Empty;
+    public List<BlogPost> Data { get; set; } = new List<BlogPost>();
 }   

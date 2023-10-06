@@ -8,10 +8,38 @@
     ".NETCoreApp,Version=v7.0": {
       "tamDevMvc/1.0.0": {
         "dependencies": {
+          "DotNetAuth": "1.0.5",
+          "DotNetAuth.Profiles": "1.0.5",
           "Microsoft.AspNetCore.Components": "7.0.10"
         },
         "runtime": {
           "tamDevMvc.dll": {}
+        }
+      },
+      "DotNetAuth/1.0.5": {
+        "dependencies": {
+          "Newtonsoft.Json": "4.5.8",
+          "RestSharp": "103.4.0",
+          "TaskParallelLibrary": "1.0.2856"
+        },
+        "runtime": {
+          "lib/net40/DotNetAuth.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DotNetAuth.Profiles/1.0.5": {
+        "dependencies": {
+          "DotNetAuth": "1.0.5",
+          "Newtonsoft.Json": "4.5.8",
+          "RestSharp": "103.4.0"
+        },
+        "runtime": {
+          "lib/net40/DotNetAuth.Profiles.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Microsoft.AspNetCore.Authorization/7.0.10": {
@@ -69,7 +97,24 @@
           }
         }
       },
-      "Microsoft.Extensions.Primitives/7.0.0": {}
+      "Microsoft.Extensions.Primitives/7.0.0": {},
+      "Newtonsoft.Json/4.5.8": {
+        "runtime": {
+          "lib/net40/Newtonsoft.Json.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.5.8.15203"
+          }
+        }
+      },
+      "RestSharp/103.4.0": {
+        "runtime": {
+          "lib/net4/RestSharp.dll": {
+            "assemblyVersion": "103.4.0.0",
+            "fileVersion": "103.4.0.0"
+          }
+        }
+      },
+      "TaskParallelLibrary/1.0.2856": {}
     }
   },
   "libraries": {
@@ -77,6 +122,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "DotNetAuth/1.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MYIuwWqELuWciYRp5AixSQpUFnW0PoXlZIFwOG50vLB8fIoqIMLVUDxxwvEok/6v/RYK4hQqsMrZ/n/9/6G5tw==",
+      "path": "dotnetauth/1.0.5",
+      "hashPath": "dotnetauth.1.0.5.nupkg.sha512"
+    },
+    "DotNetAuth.Profiles/1.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PVKcti+9/UX9Tc8TO1fT5y3JuuwQ2YlYfY9gJwlc5Tqrje9fvupKzPHOMvAnQydSnGdnH8ZmiGHM08mOr8DdTg==",
+      "path": "dotnetauth.profiles/1.0.5",
+      "hashPath": "dotnetauth.profiles.1.0.5.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/7.0.10": {
       "type": "package",
@@ -133,6 +192,27 @@
       "sha512": "sha512-um1KU5kxcRp3CNuI8o/GrZtD4AIOXDk+RLsytjZ9QPok3ttLUelLKpilVPuaFT3TFjOhSibUAso0odbOaCDj3Q==",
       "path": "microsoft.extensions.primitives/7.0.0",
       "hashPath": "microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/4.5.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o5x2tEL+tvr+34l8U4iXMz0GDt68qarWMoAenvWQtrmfa/2IQyna46nXhcXhmLUGDEBTrsCcR8uP60Wqw40kBg==",
+      "path": "newtonsoft.json/4.5.8",
+      "hashPath": "newtonsoft.json.4.5.8.nupkg.sha512"
+    },
+    "RestSharp/103.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U8PbUgTk6RwJ0tGYtxjD02PsLSLR35mnHpXdDKCBbcXkxUvd2eKxutlNfUkcPmaBJGODwL3N097A3/j/AQrHCg==",
+      "path": "restsharp/103.4.0",
+      "hashPath": "restsharp.103.4.0.nupkg.sha512"
+    },
+    "TaskParallelLibrary/1.0.2856": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O0/oe8Wk+DraF2fFRTSYDEFmKCy7b9DvXG9G83D5bsOmnxxowY4cDu8peye+DrOoo1AS31BntIlpsqyiskBrhw==",
+      "path": "taskparallellibrary/1.0.2856",
+      "hashPath": "taskparallellibrary.1.0.2856.nupkg.sha512"
     }
   }
 }
