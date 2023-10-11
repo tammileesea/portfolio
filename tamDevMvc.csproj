@@ -21,6 +21,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Components" Version="7.0.10" />
     <PackageReference Include="DotNetAuth" Version="1.0.5" />
     <PackageReference Include="DotNetAuth.Profiles" Version="1.0.5" />
+    <PackageReference Include="Blazor.Bootstrap" Version="1.10.2" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Shared\Component\" />

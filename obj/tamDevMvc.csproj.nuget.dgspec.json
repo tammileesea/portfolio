@@ -43,6 +43,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Blazor.Bootstrap": {
+              "target": "Package",
+              "version": "[1.10.2, )"
+            },
             "DotNetAuth": {
               "target": "Package",
               "version": "[1.0.5, )"

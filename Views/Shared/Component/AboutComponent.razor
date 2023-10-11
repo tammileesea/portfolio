@@ -1,18 +1,68 @@
 ﻿@using Microsoft.AspNetCore.Components
-
-<h3>Hi, I'm Tammi!</h3>
-<p>
-    I'm a full stack software engineer with 3 years of experience in the education and legal spaces.
-    <br />
-    
-</p>
-
-<p>
-    Find me on <a href="www.linkedin.com/in/tammileesea/" target="_blank">LinkedIn</a> and <a href="www.github.com/tammileesea" target="_blank">GitHub</a>!
-</p>
+@using BlazorBootstrap
 
 <div>
-    @Data
+    <h3>Hi, I'm Tammi!</h3>
+    <p>
+        I'm a full stack software engineer with 3 years of experience in the education and legal spaces.
+        <br/>
+        I graduated from the <a href="https://peabody.jhu.edu/">Peabody Institute of the Johns Hopkins University</a> with a Bachelor of Music in Vocal Performance aka opera!
+        I then transitioned to tech in 2019 via <a href="https://codingdojo.com">Coding Dojo</a>, a 14-week web development bootcamp.
+    </p>
+
+    <div style="margin-top:80px">
+        <h4>Work Experience</h4>
+        <Tabs>
+            <Tab Title="Amplify Consulting Partners" IsActive="true">
+                <Content>
+                    <Card>
+                        <CardBody>
+                            <CardTitle>Full Stack Software Engineer</CardTitle>
+                            <CardSubTitle Class="mb-2 text-muted">Jan 2020 to Oct 2021</CardSubTitle>
+                            <CardText>
+                                A tech consulting firm located in Bellevue, WA.
+                                <br />
+
+                            </CardText>
+                            <CardLink To="#">Card link</CardLink>
+                            <CardLink To="#">Another link</CardLink>
+                        </CardBody>
+                    </Card>
+                </Content>
+            </Tab>
+            <Tab Title="Advocat AI" IsActive="true">
+                <Content>
+                    <Card>
+                        <CardBody>
+                            <CardTitle>Full Stack Software Engineer</CardTitle>
+                            <CardSubTitle Class="mb-2 text-muted">Oct 2021 to Nov 2022</CardSubTitle>
+                            <CardText>
+                                A legaltech startup located in Bellevue, WA.
+                            </CardText>
+                            <CardLink To="#">Card link</CardLink>
+                            <CardLink To="#">Another link</CardLink>
+                        </CardBody>
+                    </Card>
+                </Content>
+            </Tab>
+        </Tabs>
+    </div>
+
+    <div style="margin-top:80px">
+        <h6>Where to find me!</h6>
+        <Button Type="ButtonType.Link" Color="ButtonColor.Primary" To="https://www.linkedin.com/in/tammileesea">
+            <Icon Name="IconName.Linkedin" />
+            LinkedIn
+        </Button>
+        <Button Type="ButtonType.Link" Color="ButtonColor.Primary" To="https://www.github.com/tammileesea">
+            <Icon Name="IconName.Github" />
+            GitHub
+        </Button>     
+    </div>
+
+    <div>
+        @Data
+    </div>
 </div>
 
 @code {

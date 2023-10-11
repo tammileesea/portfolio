@@ -3,6 +3,7 @@
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddServerSideBlazor();
+builder.Services.AddBlazorBootstrap();
 
 var app = builder.Build();
 

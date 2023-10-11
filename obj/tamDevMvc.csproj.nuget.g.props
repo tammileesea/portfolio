@@ -13,4 +13,7 @@
     <SourceRoot Include="/Users/tammilee/.nuget/packages/" />
     <SourceRoot Include="/usr/local/share/dotnet/sdk/NuGetFallbackFolder/" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)blazor.bootstrap/1.10.2/buildTransitive/Blazor.Bootstrap.props" Condition="Exists('$(NuGetPackageRoot)blazor.bootstrap/1.10.2/buildTransitive/Blazor.Bootstrap.props')" />
+  </ImportGroup>
 </Project>

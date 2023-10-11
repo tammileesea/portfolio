@@ -39,3 +39,4 @@
 /Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/bin/Debug/net7.0/DotNetAuth.Profiles.dll
 /Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/bin/Debug/net7.0/Newtonsoft.Json.dll
 /Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/bin/Debug/net7.0/RestSharp.dll
+/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/bin/Debug/net7.0/BlazorBootstrap.dll
