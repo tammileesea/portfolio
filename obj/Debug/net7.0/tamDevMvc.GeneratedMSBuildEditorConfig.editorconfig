@@ -16,8 +16,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/Views/Shared/Component/AboutComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudC9BYm91dENvbXBvbmVudC5yYXpvcg==
+[/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/Views/Shared/Component/BasicText.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudC9CYXNpY1RleHQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/Views/Shared/Component/BlogComponent.razor]
@@ -34,10 +34,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/Views/Shared/Component/ProjectsComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudC9Qcm9qZWN0c0NvbXBvbmVudC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/Views/About/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXQvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/tammilee/workspace/portfolio/tamDevMvc/tamDevMvc/Views/Blog/Index.cshtml]

@@ -1,8 +1,18 @@
 ﻿@{
     ViewData["Title"] = "Tammi's Portfolio";
+
+    Dictionary<string, string> text = new Dictionary<string, string>()
+    {
+        { "IconName", "EmojiSmile" },
+        { "Title", "Hi, I'm Tammi!" }
+    };
 }
 
 <div>
+    @(await Html.RenderComponentAsync<tamDevMvc.Views.Shared.Component.BasicText>
+        (RenderMode.ServerPrerendered, new {  Data = text })
+    )
+
     @(await Html.RenderComponentAsync<tamDevMvc.Views.Shared.Component.Component>
         (RenderMode.ServerPrerendered, new {  Data = "" })
     )

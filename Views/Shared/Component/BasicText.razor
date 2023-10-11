@@ -1,0 +1,24 @@
+﻿@using Microsoft.AspNetCore.Components
+@using BlazorBootstrap
+
+<div>
+    <h3><Icon Name="@ToIcon(Data["IconName"])" /> @Data["Title"]</h3>
+    @if (Data.ContainsKey("Subtitle"))
+        {
+            <p>@Data["Subtitle"]</p>
+        }
+</div>
+
+@code {
+    [Parameter]
+    public Dictionary<string, string> Data { get; set; } = new Dictionary<string, string>();
+
+    public IconName ToIcon(string iconName)
+    {
+        return iconName switch
+        {
+            "JournalText" => IconName.JournalText,
+            "EmojiSmile" => IconName.EmojiSmile
+        };
+    }
+}   

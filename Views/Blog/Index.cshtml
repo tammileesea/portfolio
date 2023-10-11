@@ -5,9 +5,20 @@
     blogPosts.Add(new BlogPost { Title = "Second Blog Post" });
     blogPosts.Add(new BlogPost { Title = "Third Blog Post" });
     blogPosts.Add(new BlogPost { Title = "Fourth Blog Post" });
+
+    Dictionary<string, string> text = new Dictionary<string, string>()
+    {
+        { "IconName", "JournalText" },
+        { "Title", "Welcome to my blog!" },
+        { "Subtitle", "This is where I share my lightbulb moments, ideas, processes, etc. Have a read, leave a comment, all I ask is for you to be kind" }
+    };
 }
 
 <div>
+    @(await Html.RenderComponentAsync<tamDevMvc.Views.Shared.Component.BasicText>
+        (RenderMode.ServerPrerendered, new {  Data = text })
+    )
+
     @(await Html.RenderComponentAsync<tamDevMvc.Views.Shared.Component.BlogComponent>
         (RenderMode.ServerPrerendered, new {  Data = blogPosts })
     )
