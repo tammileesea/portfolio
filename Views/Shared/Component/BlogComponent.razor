@@ -1,12 +1,15 @@
 ﻿@using Microsoft.AspNetCore.Components
 @using Models
 @using BlazorBootstrap
+@using Component
 
+<HeaderComponent Data="header" IsPrimaryHeader="true"></HeaderComponent>
 <div>
     @foreach (var post in Data)
     {
         <div>
-            <h2>@post.Title</h2>
+            <h4>@post.Title</h4>
+            <p>@post.CreatedAt.ToString("D")</p>
         </div>
     }
 </div>
@@ -14,4 +17,11 @@
 @code {
     [Parameter]
     public List<BlogPost> Data { get; set; } = new List<BlogPost>();
+
+    Dictionary<string, string> header = new Dictionary<string, string>()
+    {
+        { "IconName", "JournalText" },
+        { "Title", "Welcome to my blog!" },
+        { "Subtitle", "This is where I share my lightbulb moments, ideas, processes, etc. Have a read, leave a comment, all I ask is for you to be kind" }
+    };
 }   

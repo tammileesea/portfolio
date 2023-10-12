@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNetCore.Components
+@using BlazorBootstrap
+@using Component
+
+<HeaderComponent Data="header" IsPrimaryHeader="false"></HeaderComponent>
+<ul>
+    <li>
+        I love sports and being active- soccer, running marathons, cycling, hiking, tennis- to name a few
+    </li>
+    <li>
+        I have a rambunctious mini-poodle named Robin
+    </li>
+    <li>
+        I like to knit during the cold months to stay cozy
+    </li>
+    <li>
+        Even though I pivoted careers, I still perform and teach voice lessons on the side
+    </li>
+</ul>
+
+@code {
+    Dictionary<string, string> header = new Dictionary<string, string>()
+    {
+        { "IconName", "PersonHearts" },
+        { "Title", "Other Info" }
+    };
+}   

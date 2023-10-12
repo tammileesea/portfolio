@@ -1,0 +1,23 @@
+﻿@using BlazorBootstrap
+@using Component
+
+<HeaderComponent Data="header" IsPrimaryHeader="false"></HeaderComponent>
+<div>
+    <Button Type="ButtonType.Link" Color="ButtonColor.Primary" To="https://www.linkedin.com/in/tammileesea" Size="Size.Small">
+        <Icon Name="IconName.Linkedin" />
+        LinkedIn
+    </Button>
+    <Button Type="ButtonType.Link" Color="ButtonColor.Primary" To="https://www.github.com/tammileesea" Size="Size.Small">
+        <Icon Name="IconName.Github" />
+        GitHub
+    </Button>
+</div>
+
+@code {
+    Dictionary<string, string> header = new Dictionary<string, string>()
+    {
+        { "IconName", "Search" },
+        { "Title", "Find Me" }
+    };
+}
+

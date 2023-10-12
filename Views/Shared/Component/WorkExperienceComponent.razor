@@ -1,0 +1,107 @@
+﻿@using BlazorBootstrap
+@using Component
+
+<HeaderComponent Data="header" IsPrimaryHeader="false"></HeaderComponent>
+<Tabs @ref="tabs" EnableFadeEffect="true">
+    <Tab Title="Amplify Consulting Partners" IsActive="true">
+        <Content>
+            <Card>
+                <CardBody>
+                    <CardTitle>Full Stack Software Engineer</CardTitle>
+                    <CardSubTitle Class="mb-2 text-muted">Jan 2020 to Oct 2021</CardSubTitle>
+                    <CardText>
+                        A tech consulting firm located in Bellevue, WA where I worked on a cross-functional team to build
+                        a robust web application for Colorado Community College System as they were tired of using 5 separate apps
+                        to track all of their data.
+                    </CardText>
+                    <ul>
+                        <li>
+                            Developed API endpoints, services, and mappers to communicate with the frontend using C#, Entity Framework Core, LINQ, SQL Server
+                        </li>
+                        <li>
+                            Created and maintained integration and unit tests using xUnit
+                        </li>
+                        <li>
+                            Managed and debugged CI/CD pipelines on Azure
+                        </li>
+                        <li>
+                            Updated deployment scripts to apply custom parameters
+                        </li>
+                        <li>
+                            Maintained SQL stored procedures and debugged data issues
+                        </li>
+                        <li>
+                            Created and maintained React components and services using TypeScript and Redux
+                        </li>
+                        <li>
+                            Worked closely with client team for User Acceptance Testing and communicated requirements and timelines
+                        </li>
+                        <li>
+                            Began as an intern in Jan 2020 till May 2020
+                        </li>
+                    </ul>
+                    @*<CardLink To="#">Card link</CardLink>*@
+                </CardBody>
+            </Card>
+        </Content>
+    </Tab>
+    <Tab Title="Advocat AI" IsActive="true">
+        <Content>
+            <Card>
+                <CardBody>
+                    <CardTitle>Full Stack Software Engineer</CardTitle>
+                    <CardSubTitle Class="mb-2 text-muted">Oct 2021 to Nov 2022</CardSubTitle>
+                    <CardText>
+                        A legaltech startup located in Bellevue, WA.
+                    </CardText>
+                    <ul>
+                        <li>
+                            Created and maintained microservices using gRPC
+                        </li>
+                        <li>
+                            Developed API endpoints and unit tests using C# and xUnit
+                        </li>
+                        <li>
+                            Managed local and remote deployment and CI/CD pipelines on Azure using Kubernetes, Docker, and Devspace
+                        </li>
+                        <li>
+                            Implemented third party APIs to send data to and from the backend
+                        </li>
+                        <li>
+                            Developed frontend components and unit tests using Blazor Web Assembly, C#, and bUnit
+                        </li>
+                    </ul>
+                </CardBody>
+            </Card>
+        </Content>
+    </Tab>
+</Tabs>
+
+@code {
+    Dictionary<string, string> header = new Dictionary<string, string>()
+    {
+        { "IconName", "PersonVCard" },
+        { "Title", "Work Experience" }
+    };
+
+    Tabs tabs = default!;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            string userDefaultPreferredTab = "Amplify Consulting Partners"; // Get the value from Service / API
+
+            switch (userDefaultPreferredTab)
+            {
+                case "Amplify Consulting Partners":
+                    await tabs.ShowTabByIndexAsync(0);
+                    break;
+                case "Advocat AI":
+                    await tabs.ShowTabByIndexAsync(1);
+                    break;
+            }
+        }
+    }
+}
+

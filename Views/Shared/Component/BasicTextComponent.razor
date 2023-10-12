@@ -1,0 +1,25 @@
+﻿@using Microsoft.AspNetCore.Components
+@using BlazorBootstrap
+@using Component
+
+<HeaderComponent Data="header" IsPrimaryHeader="true"></HeaderComponent>
+<div>
+    <p>
+        I'm a full stack software engineer with 3 years of experience in the education and legal spaces.
+        <br />
+        I graduated from the <a href="https://peabody.jhu.edu/">Peabody Institute of the Johns Hopkins University</a> with a Bachelor of Music in Vocal Performance aka opera!
+        <br />
+        I then transitioned to tech in 2019 via <a href="https://codingdojo.com">Coding Dojo</a>, a 14-week web development bootcamp.
+    </p>
+</div>
+
+@code {
+    //[Parameter]
+    //public List<String> Data { get; set; } = new List<String>();
+
+    Dictionary<string, string> header = new Dictionary<string, string>()
+    {
+        { "IconName", "EmojiSmile" },
+        { "Title", "Hi, I'm Tammi!" }
+    };
+}   
